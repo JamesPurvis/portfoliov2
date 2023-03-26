@@ -1,0 +1,127 @@
+body {
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.navbar-brand {
+    font-family: 'Share Tech Mono', monospace;
+    margin-left: 10%;
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(170, 0, 255);
+    letter-spacing: 0.1rem;
+}
+
+.navbar-nav {
+    margin-left: 30%;
+}
+nav {
+    font-family: 'Share Tech Mono', monospace;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.navbar-light .navbar-nav a.nav-link.active {
+    color: rgb(170, 0, 255);
+    position: relative;
+    text-align: center;
+    padding-bottom: 2%;
+  }
+  
+  .navbar-light .navbar-nav a.nav-link:hover {
+    color: rgb(170, 0, 255);
+  }
+  .navbar-light .navbar-nav a.nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 3px solid rgb(170, 0, 255);
+    width: 50%;
+  }
+
+  #home img{
+    object-fit: contain;
+    max-width: 100%;
+    width: 75%;
+    justify-content: center;
+    mix-blend-mode: multiply;
+  }
+
+  #hireme {
+    background-color: rgb(170, 0, 255);
+  }
+
+  #projects {
+    background-color: rgb(170, 0, 255);
+  }
+
+  #box {
+    background-color: rgba(245, 245, 245, 0.3);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+  }
+
+  #box:hover {
+    background-color: rgba(245, 245, 245);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+  }
+
+  #mouse {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 25%;
+    border-style: outset;
+    padding: 10%;
+    text-align: center;
+  }
+
+  #desktop {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 25%;
+    border-style: outset;
+    padding: 10%;
+    text-align: center;
+  }
+  
+  #rocket {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 25%;
+    border-style: outset;
+    padding: 10%;
+    text-align: center;
+  }
+
+  #javascript {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 25%;
+    border-style: outset;
+    padding: 10%;
+    text-align: center;
+  }
+
+.scroll-container {
+  overflow-y: scroll; /* enable vertical scrolling */
+  scroll-snap-type: y mandatory; /* enable snap-scrolling */
+}
+
+#home {
+  height: 100vh; /* set the height of each page to the full viewport height */
+  scroll-snap-align: start; /* specify where to snap-scroll */
+}
+
+#skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  scroll-snap-align: start;
+}
+
+#About {
+  scroll-snap-align: start;
+  height: 100vh;
+  overflow-y: auto;
+}
