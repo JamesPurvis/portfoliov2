@@ -39,17 +39,17 @@
                     <a  href="#skills" class="nav-link px-4">Skills</a>
                 </li>
                 <li>
-                    <a class="nav-link px-4">Portfolio</a>
+                    <a href="#portfolio" class="nav-link px-4">Portfolio</a>
                 </li>
                 <li>
-                    <a class="nav-link px-4">Contact</a>
+                    <a href="#contact" class="nav-link px-4">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 
 
-  <div class="container min-vw-100 d-flex align-items-center justify-content-center p-5" id="home">
+  <div class="container min-vw-100 min-vh-100 d-flex align-items-center justify-content-center p-5" id="home">
     <div class="row d-flex align-items-center justify-content-center p-5">
         <div class="col-lg-6 col-md-12">
     <div class="d-flex flex-column">
@@ -77,7 +77,7 @@
     </div>
     </div>
       
-    <div class="container d-flex p-5 pb-1" id="skills">
+    <div class="container d-flex p-5 pb-1 min-vh-100" id="skills">
             <div class="d-flex flex-column">
                     <h1 class="text-center pb-3 pb-sm-5">Skills</h1>
             
@@ -112,88 +112,105 @@
             <p>I love learning, and I'm constantly creating new projects here are some of my favorites:</p>
            </div>
            </div>
-           <div class="container min-vw-100 justify-content-center align-content-center">
+           <div class="container min-vw-100 min-vh-100 align-content-center">
            <div class="row pt-3">
-            <div class="col-sm-12 col-lg-6 project-box">
+            <div class="col-lg-6 col-sm-12 project-box d-flex flex-column justify-content-between">
                 <div class="container">
-                    <div class="row align-items-center">
-                    <div class="col-3 p-5 text-center">
-                        <i class="fas fa-4x fa-piggy-bank"></i>
-                    </div>
-                    <div class="col-sm-9 col-md-7 pt-5 pe-5 ps-5">
-                        <h6 class="fw-bold pb-2 text-uppercase">Loan Web application</h6>
-                        <p> This RESTful application simulates a payday loan website. Users can login, register, and request loans. The backend calculates the max amount of loans a user can request using their DTI ratio. Passwords are hashed using bcrypt and sensetive data is encrypted using AES</p>
-                    </div>
-                    </div>
-                    <div class="row pb-3 justify-content-end align-items-center">
-                        <div class="col-12 text-center">
-                            <button id="sourcecode" type="button" class="btn btn-primary">Source Code</button>
-                        
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 project-box">
-                <div class="container">
-                    <div class="row align-items-center">
-                    <div class="col-3 p-5 text-center">
-                        <i class="fas fa-4x fa-cog"></i>
+                  <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-12 p-5 text-center">
+                      <i class="fas fa-4x fa-piggy-bank"></i>
                     </div>
                     <div class="col-sm-9 col-md-7 pt-5 pe-5 ps-5 ">
-                        <h6 class="fw-bold pb-2 text-uppercase">Content Management System</h6>
-                        <p class="">I created this Spring application to work with a game emulator I wrote in Java. It allows users to login, and register, and update their profile. Administrators have access to special menus for editing accounts and they can also post news articles which can be viewed by logged in users.</p>
+                      <h6 class="fw-bold pb-2 text-uppercase">Loan Web Application</h6>
+                      <p>This RESTful application simulates a payday loan website. Users can login, register, and request loans. The backend calculates the max amount of loans a user can request using their DTI ratio. Passwords are hashed using bcrypt and sensitive data is encrypted using AES.</p>
                     </div>
-                    </div>
-                    <div class="row pb-3 justify-content-end align-items-center">
-                        <div class="col-12 text-center">
-                            <button id="sourcecode" type="button" class="btn btn-primary">Source Code</button>
-                            
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-           </div>
+                <div class="d-grid justify-content-center pb-5">
+                  <button id="sourcecode" type="button" class="w-100 btn btn-primary">Source Code</button>
+                </div>
+              </div> 
+            <div class="col-lg-6 col-sm-12 project-box d-flex flex-column justify-content-between">
+                <div class="container">
+                  <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-12 p-5 text-center">
+                      <i class="fas fa-4x fa-gear"></i>
+                    </div>
+                    <div class="col-sm-9 col-md-7 pt-5 pe-5 ps-5 ">
+                      <h6 class="fw-bold pb-2 text-uppercase">Content Management System</h6>
+                      <p>I created this Spring application to work with a game emulator I wrote in Java. It allows users to login, and register, and update their profile. Administrators have access to special menus for editing accounts and they can also post news articles which can be viewed by logged in users.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-grid justify-content-center pb-5">
+                  <button id="sourcecode" type="button" class="w-100 btn btn-primary">Source Code</button>
+                </div>
+              </div>
+              
+              <div class="container-fluid">
            <div class="row mt-2">
-            <div class="col-lg-6 col-sm-12 project-box">
+            <div class="col-lg-6 col-sm-12 project-box d-flex flex-column justify-content-between">
                 <div class="container">
-                    <div class="row align-items-center">
-                    <div class="col-3 p-5 text-center">
-                        <i class="fas fa-4x fa-plane"></i>
+                  <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-12 p-5 text-center">
+                      <i class="fas fa-4x fa-plane"></i>
                     </div>
                     <div class="col-sm-9 col-md-7 pt-5 pe-5 ps-5 ">
-                        <h6 class="fw-bold text-uppercase pb-2">RouteFinder Flight Finder</h6>
-                        <p>This application uses the Skyscanner Flight API, users can search for flights leaving on specified dates and get flight prices.</p>
+                      <h6 class="fw-bold pb-2 text-uppercase">RouteFinder Flight Finder</h6>
+                      <p>This application uses the Skyscanner Flight API, users can search for flights leaving on specified dates and get flight prices.</p>
                     </div>
-                    </div>
-                    <div class="row pb-3 justify-content-end align-items-center">
-                        <div class="col-12 text-center">
-                            <button id="sourcecode" type="button" class="btn btn-primary">Source Code</button>
-                        </div>
-                    </div>
+                  </div>
                 </div>
-            </div>
-            <div class="col-lg-6 col-sm-12 project-box">
+                <div class="d-grid justify-content-center pb-5">
+                  <button id="sourcecode" type="button" class="w-100 btn btn-primary">Source Code</button>
+                </div>
+              </div>
+            <div class="col-lg-6 col-sm-12 project-box d-flex flex-column justify-content-between">
                 <div class="container">
-                    <div class="row align-items-center">
-                    <div class="col-3 p-5 text-center">
-                        <i class="fas fa-4x fa-pencil-alt">></i>
+                  <div class="row align-items-center">
+                    <div class="col-lg-3 col-sm-12 p-5 text-center">
+                      <i class="fas fa-4x fa-pencil-alt"></i>
                     </div>
                     <div class="col-sm-9 col-md-7 pt-5 pe-5 ps-5 ">
-                        <h6 class="fw-bold pb-2 text-uppercase">Blog Website</h6>
-                        <p>A simple RESTFul blog website with no styling. Users can login, register, and post new blog posts. Users can edit their own posts, and admins can edit or delete any post.</p>
+                      <h6 class="fw-bold pb-2 text-uppercase">Blog Website</h6>
+                      <p>A simple RESTFul blog website with no styling. Users can login, register, and post new blog posts. Users can edit their own posts, and admins can edit or delete any post.</p>
                     </div>
-                    </div>
-                    <div class="row pb-3 justify-content-end align-items-center">
-                        <div class="col-12 text-center">
-                            <button id="sourcecode" type="button" class="btn btn-primary">Source Code</button>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+                <div class="d-grid justify-content-center pb-5">
+                  <button id="sourcecode" type="button" class="w-100 btn btn-primary">Source Code</button>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
             </div>
-           </div>
-           </div>
-           </div>
+        </div>
+    </div>
+</div>
 
+    <div class="container d-flex justify-content-center pt-5 contact-form w-auto min-vh-100" id="contact">
+        <div class="flex-column">
+            <h1 class="pb-3">Send me a message!</h1>
+            <div class="form-group justify-content-center">
+            <input type="text" class="form-control form-element" placeholder="Full Name *"/>
+            </div>
+            <div class="form-group justify-content-center">
+            <input type="text" class="form-control form-element" placeholder="Email *"/>
+            </div>
+            <div class="form-group justify-content-center">
+            <input type="text" class="form-control form-element" placeholder="Subject *"/>
+            </div>
+            <div class="form-group justify-content-center">
+                <p class="fw-bolder text-center">Please enter a message below:</p>
+                <textarea id="message" class="form-element form-control pb-5"></textarea>
+            </div>
+            <div class="form-group text-center">
+                <button class="btn btn-primary" id="contactsubmit">Submit</button>
+            </div>
+            </div>
+        </div>
+    </div>
          
   
 

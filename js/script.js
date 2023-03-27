@@ -1,5 +1,8 @@
 
 var links = document.querySelectorAll('.nav-link');
+const message = document.getElementById("message");
+message.focus();
+message.setSelectionRange(0, 0);
 
 
 for (var i = 0; i < links.length; i++) {
@@ -12,3 +15,5 @@ for (var i = 0; i < links.length; i++) {
     this.classList.add('active');
   });
 }
+
+

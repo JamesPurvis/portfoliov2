@@ -73,6 +73,12 @@ nav {
 
   }
 
+  .contact-form:hover {
+    background-color: rgba(245, 245, 245);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+
+  }
+
   #mouse {
     max-width: 70%;
     max-height: 70%;
@@ -146,9 +152,27 @@ nav {
   background-color: rgb(170, 0, 255);
 }
 
+#contactsubmit {
+  background-color: rgb(170, 0, 255);
+}
+
 
 .project-box {
   background-color: rgba(245, 245, 245, 0.3);
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
 }
 
+.contact-form {
+  background-color: rgba(245, 245, 245, 0.3);
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.form-group {
+  padding-bottom: 20px;
+}
+
+.form-element {
+  background-color: rgb(249, 246, 250);
+  border: 1px solid rgb(170, 0, 255);
+
+}
